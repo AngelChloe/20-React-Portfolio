@@ -43,16 +43,16 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ## Screenshot of my Live Github Page
 
 About Page
-<img width="1242" alt="Screen Shot 2021-08-04 at 5 37 35 PM" src="https://user-images.githubusercontent.com/79430431/128273236-b58b7a8f-2274-466d-9869-502908addcd3.png">
+<img width="1242" alt="Screen Shot 2021-08-04 at 5 37 35 PM" src="">
 
 Portfolio Page
-<img width="1242" alt="Screen Shot 2021-08-04 at 5 35 39 PM" src="https://user-images.githubusercontent.com/79430431/128273240-852dd076-f089-481c-b754-de0e806d45a7.png">
+<img width="1242" alt="Screen Shot 2021-08-04 at 5 35 39 PM" src="">
 
 Contact Page
-<img width="1242" alt="Screen Shot 2021-08-04 at 5 36 21 PM" src="https://user-images.githubusercontent.com/79430431/128273246-65363aee-9f27-4d58-80da-04c440e76e74.png">
+<img width="1242" alt="Screen Shot 2021-08-04 at 5 36 21 PM" src="">
 
 Resume Page
-<img width="1242" alt="Screen Shot 2021-08-04 at 5 36 57 PM" src="https://user-images.githubusercontent.com/79430431/128273254-5571e24e-550e-4861-a5ac-47f6aba61062.png">
+<img width="1242" alt="Screen Shot 2021-08-04 at 5 36 57 PM" src="">
 
 
 ## Important Links 
