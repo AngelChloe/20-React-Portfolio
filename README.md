@@ -43,16 +43,16 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ## Screenshot of my Live Github Page
 
 About Page
-<img width="1242" alt="Screen Shot 2021-08-04 at 5 37 35 PM" src="">
+
 
 Portfolio Page
-<img width="1242" alt="Screen Shot 2021-08-04 at 5 35 39 PM" src="">
+
 
 Contact Page
-<img width="1242" alt="Screen Shot 2021-08-04 at 5 36 21 PM" src="">
+
 
 Resume Page
-<img width="1242" alt="Screen Shot 2021-08-04 at 5 36 57 PM" src="">
+
 
 
 ## Important Links 
