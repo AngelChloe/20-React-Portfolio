@@ -69,7 +69,7 @@ Resume Page
 ## Important Links 
 
 [GitHub Repository Link](https://github.com/Cinderbeast/20-React-Portfolio)
-[Link to GitHub deployed Webpage]()
+[Link to GitHub deployed Webpage](https://cinderbeast.github.io/20-React-Portfolio)
 
 ## Framework/Technolgies
 
