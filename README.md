@@ -5,9 +5,7 @@
 ## User Story
 
 ```md
-AS AN employer looking for candidates with experience building single-page applications
-I WANT to view a potential employee's deployed React portfolio of work samples
-SO THAT I can assess whether they're a good candidate for an open position
+As an employer looking for candidates with experience building single-page applications, I want  to view a potential employee's deployed React portfolio of work samples.  This is so that I can assess whether they're a good candidate for an open position
 ```
 
 ## Table of Contents
@@ -16,7 +14,6 @@ SO THAT I can assess whether they're a good candidate for an open position
 2. [Installation](#installation)
 3. [Usage](#usage)
 4. [Screenshots](#screenshots)
-5. [Walkthrough Video](#walkthrough-video)
 6. [Packages](#packages)
 7. [Questions](#questions)
 8. [Authors and Acknowledgements](#authors-and-acknowledgements)
@@ -24,7 +21,7 @@ SO THAT I can assess whether they're a good candidate for an open position
 ## Project Criteria
 
 ```md
-GIVEN a single-page application portfolio for a web developer
+- Given a single-page application portfolio for a web developer
 WHEN I load the portfolio
 THEN I am presented with a page containing a header, a section for content, and a footer
 WHEN I view the header
@@ -69,6 +66,7 @@ Resume Page
 ## Important Links 
 
 [GitHub Repository Link](https://github.com/Cinderbeast/20-React-Portfolio/tree/gh-pages)
+
 [Link to GitHub deployed Webpage](https://cinderbeast.github.io/20-React-Portfolio)
 
 ## Framework/Technolgies
