@@ -68,7 +68,7 @@ Resume Page
 
 ## Important Links 
 
-[GitHub Repository Link](https://github.com/Cinderbeast/20-React-Portfolio/tree/gh-pages?
+[GitHub Repository Link](https://github.com/Cinderbeast/20-React-Portfolio/tree/gh-pages)
 [Link to GitHub deployed Webpage](https://cinderbeast.github.io/20-React-Portfolio)
 
 ## Framework/Technolgies
@@ -82,6 +82,8 @@ Coolers
 ## Contact Information
 
 [Email](cindychynoweth@hotmail.com)
+Or
+[Email](cindychynoweth@gmail.com)
 
 [LinkIn]()
 

@@ -1,7 +1,6 @@
 {
 
   "hompage": "https://cinderbeast.github.io/20-React-Portfolio",
-  "name": "20-React-Portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
