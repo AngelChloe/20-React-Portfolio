@@ -1,79 +1,33 @@
-import React, { useState } from "react";
-import { Form, FormGroup, Input, Button } from "reactstrap";
-import { validateEmail } from "../../utils/helpers";
+import React from 'react';
+   const contactStyle = {
+      backgroundColor: '#d8e1ff',
+      width: '100%',
+ }
 
-const ContactForm = (props) => {
-  const [fullName, setUserName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
-  const [setErrorMessage] = useState("");
-
-  const handleInputChange = (e) => {
-    // Getting the value and name of the input which triggered the change
-    const { target } = e;
-    const inputType = target.name;
-    const inputValue = target.value;
-    //Set the state to email, username, and message based on the input type,
-    if (inputType === "fullName") {
-      setUserName(inputValue);
-    } else if (inputType === "email") {
-      setEmail(inputValue);
-    } else {
-      setMessage(inputValue);
-    }
-  };
-
-  const handleFormSubmit = (e) => {
-    e.preventDefault();
-    if (!validateEmail(email)) {
-      setErrorMessage("wrong email");
-      return;
-    }
-    setUserName("");
-    setEmail("");
-    setMessage("");
-  };
-
-  return (
-    <Form className="contact">
-      <div>
-        <h3> Contact</h3>
-        <p>Have a question or want to work together? you can send me message here or email me direcly @ cindychynoweth@gmail.com</p>
-        <FormGroup className="label">
-          <Input
-            type="text"
-            placeholder="Full Name"
-            value={fullName}
-            onChange={handleInputChange}
-            name="fullName"
-            required
-          />
-        </FormGroup>
-        <FormGroup>
-          <Input
-            type="email"
-            name="email"
-            placeholder="Email Address"
-            value={email}
-            onChange={handleInputChange}
-            onSubmit={handleFormSubmit}
-            required
-          />
-        </FormGroup>
-        <FormGroup>
-          <Input
-            type="textarea"
-            name="comment"
-            placeholder="Message"
-            value={message}
-            onChange={handleInputChange}
-            required
-          />
-        </FormGroup>
-        <Button className="sub"> Submit </Button>
-      </div>
-    </Form>
-  );
-};
-
-export default ContactForm;
+//  Div classes fo contact form with name, email
+export default function Contact() {
+   return (
+   <section style = { contactStyle }>
+      <div style = {{ marginLeft: '30px', marginRight: '30px', backgroundColor: '#d8e1ff', padding: '15px 15px 15px 15px' }}>
+        <h1>Contact</h1>
+            <form>
+                <div className="mb-3">
+                <label for="name" className="form-label">Name:</label>
+                <input type="name" className="form-control" id="name"/>
+            </div>
+            <div className="mb-3">
+                <label for="email" className="form-label">Email address</label>
+                <input type="email" className="form-control" id="email" placeholder="name@example.com"/>
+            </div>
+            <div className="mb-3">
+                <label for="exampleFormControlTextarea1" className="form-label">Example textarea</label>
+                <textarea className="form-control" id="textarea" placeholder="message required"></textarea>
+            </div>
+            
+           <button type="submit" className="btn btn-primary">Submit</button>
+        </form>
+      </div> 
+   </section> 
+    );
+  }
+  
