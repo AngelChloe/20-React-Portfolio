@@ -1,10 +1,8 @@
 import React from "react";
-import TeamProfile from "../assets/TeamProfileGenerator.png";
+import TechBlog from "../assets/TechBlog.png";
 import WeatherDashboard from "../assets/WeatherDashBoard.png";
-import Employee from "../assets/TechBlog.png";
 import GetRoutesProductTest from "../GetRoutesProductTest.png";
-// import Proj2 from "../assets/proj2.avif";
-// import Proj3 from "../assets/proj3.avif";
+import TeamProfileGenerator from "../assets/TeamProfileGenerator.png";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -31,7 +29,7 @@ const Portfolio = (props) => {
               <CardTitle tag="h4">Team Profile</CardTitle>
               <a href="https://drive.google.com/file/d/1a9aIqdw6jlwDVTfykX16EG8nZt6aWsQ3/view">
                 <CardImg
-                  src={TeamProfile}
+                  src={TeamProfileGenerator}
                   className="project-img"
                   alt="Team Profile"
                 />
@@ -55,10 +53,7 @@ const Portfolio = (props) => {
               </div>
 
               <CardText>
-                <a
-                  href="https://github.com/Tewol/13-ecommerce-orm"
-                  class="repo-link"
-                >
+                <a href="https://github.com/Tewol/13-ecommerce-orm"class="repo-link">
                   <FontAwesomeIcon icon={["fab", "github"]} /> Team Profile
                 </a>
               </CardText>
@@ -72,14 +67,14 @@ const Portfolio = (props) => {
               <CardTitle tag="h4">Weather Dashboard</CardTitle>
               <a href="https://cinderbeast.github.io/server-side-APIs-Weather-Dashboard/">
                 <CardImg
-                  src={WeatherDashbord}
+                  src={WeatherDashboard}
                   className="project-img"
                   alt="Weather Dashboard"
                 />
               </a>
 
               <p class="card-text">
-              An application that lets the user see the current weather and forecast for the next 5 days.
+                An application that lets the user see the current weather and forecast for the next 5 days.
               </p>
 
               <div class="tech-used">
@@ -116,7 +111,7 @@ const Portfolio = (props) => {
               </a>
 
               <p class="card-text">
-              An application that allows the user to see their appointments for the day color coding times by past, present, and future events.
+                An application that allows the user to see their appointments for the day color coding times by past, present, and future events.
               </p>
 
               <div class="tech-used">
@@ -132,10 +127,7 @@ const Portfolio = (props) => {
               </div>
 
               <CardText>
-                <a
-                  href="https://github.com/Tewol/12-employee-tracker-mysql"
-                  class="repo-link"
-                >
+                <a href="https://github.com/Tewol/12-employee-tracker-mysql" class="repo-link">
                   <FontAwesomeIcon icon={["fab", "github"]} /> Workday Scheduler</a>
               </CardText>
             </CardBody>
@@ -155,14 +147,14 @@ const Portfolio = (props) => {
               </a>
 
               <p class="card-text">
-              Application that allows developers to write about tech in CMS-style blog site.  User wil be able publish articles, blog posts, thoughts and opinions.
+                Application that allows developers to write about tech in CMS-style blog site.  User wil be able publish articles, blog posts, thoughts and opinions.{" "}
               </p>
 
               <div class="tech-used">
                 <ul>
-                  <li class="tech-button"> JavaScript</li>
-                  <li class="tech-button"> CSS</li>
-                  <li class="tech-button"> Handlebars</li>
+                  <li class="tech-button"> JavaScript</li>{" "}
+                  <li class="tech-button"> CSS</li>{" "}
+                  <li class="tech-button"> Handlebars</li>{" "}
                   <li class="tech-button"> Heroku</li>{" "}
                   <li class="tech-button"> MySQL2</li>{" "}
                   <li class="tech-button"> Sequilize</li>{" "}
@@ -175,7 +167,7 @@ const Portfolio = (props) => {
 
               <CardText class="card-text">
                 <a href="Add Link"class="repo-link">
-                  <FontAwesomeIcon icon={["fab", "github"]} /> Add Title
+                  <FontAwesomeIcon icon={["fab", "github"]} /> Tech Blog
                 </a>
               </CardText>
             </CardBody>
@@ -185,20 +177,17 @@ const Portfolio = (props) => {
         <Col xs="12" sm="12" md="6">
           <Card className="projectCard">
             <CardBody>
-              <CardTitle tag="h4"> Add Title </CardTitle>
-              <a href="add link">
+              <CardTitle tag="h4"> Currency Exchange </CardTitle>
+              <a href="https://logan2391.github.io/Currency-Exchange/">
                 <CardImg
-                  src={Proj2}
+                  src={Project1}
                   className="project-img"
-                  alt="Title"
+                  alt="Project1"
                 />
               </a>
 
               <p class="card-text">
-                A railway web application that allow passengers to reserve a
-                seat on one of many trains within Minnesota. passengers can see
-                other passengers aboard as well as scheduled and current
-                station.{" "}
+                Converts selected currency to desired currency in the preferred amount.  Displays locations nearby to exchange currency.
               </p>
 
               <div class="tech-used">
@@ -218,10 +207,10 @@ const Portfolio = (props) => {
 
               <CardText>
                 <a
-                  href="https://github.com/Tewol/Railway-Express"
+                  href="Add Lin"
                   class="repo-link"
                 >
-                  <FontAwesomeIcon icon={["fab", "github"]} /> Railway Express
+                  <FontAwesomeIcon icon={["fab", "github"]} /> Icon Name
                 </a>
               </CardText>
             </CardBody>
@@ -231,40 +220,30 @@ const Portfolio = (props) => {
         <Col xs="12" sm="12" md="6">
           <Card className="projectCard">
             <CardBody>
-              <CardTitle tag="h4"> Bark Avenue </CardTitle>
-              <a href={Proj3}>
+              <CardTitle tag="h4">E-Commerce</CardTitle>
+              <a href={"https://drive.google.com/file/d/18WWQQKblRJP7qggZcz-lnyMHr0n5vKH6/view"}>
                 <CardImg
-                  src={Proj3}
+                  src={GetRoutesProductTest}
                   className="project-img"
-                  alt="Bark avenue home page"
+                  alt="E-Commerce"
                 />
               </a>
 
               <p class="card-text">
-                Bark Avenue is a website built for a pet hotel using Reactjs
-                where a user can sign up, log in, set their pets name, check out
-                the services offered, select a service, book a reservation, and
-                add it to the cart.
+                A back-end e-commerce site that uses the latest technologies to compete with other e-commerce companies.
               </p>
 
               <div class="tech-used">
                 <ul>
                   <li class="tech-button"> JavaScript</li>{" "}
                   <li class="tech-button"> Reactjs</li>{" "}
-                  <li class="tech-button"> MongoDB</li>{" "}
-                  <li class="tech-button"> Redux</li>
-                  <li class="tech-button"> React-Bootstrap</li>{" "}
-                  <li class="tech-button"> Reactstrap</li>{" "}
-                  <li class="tech-button"> Day-Picker</li>
-                  <li class="tech-button"> emailjs</li>
-                  <li class="tech-button"> Git</li>{" "}
-                  <li class="tech-button"> Heroku</li>{" "}
+                  
                 </ul>
               </div>
 
               <CardText tag="h6">
                 <a href={Proj3} class="repo-link">
-                  <FontAwesomeIcon icon={["fab", "github"]} /> Bark Avenue
+                  <FontAwesomeIcon icon={["fab", "github"]} /> Icon Name
                 </a>
               </CardText>
             </CardBody>
