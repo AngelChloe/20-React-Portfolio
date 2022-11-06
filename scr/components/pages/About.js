@@ -36,14 +36,17 @@ function About() {
             <div className="profile-picture" style={PictureStyle}>
                 <img src={require("../../assets/headshot.png").default} alt='profile'/>
             </div>
-            <p style={Pstyle}>Staying on top of your game in a fast moving industry of web development means 
+            <p style={Pstyle}>
+                My name is Cindy, a passionate full-stack developer with a background in various programming languages and frameworks. 
+                Specialized in JavaScript, jQuery, React, CSS, HTML5, Node.js, Express.js, SQL, NoSQL(MongoDB) and React.
+                Staying on top of your game in a fast moving industry of web development means 
                 you never stop learning and you are constantly improving and learning from others. 
                 Being able to work both in collaborating groups and independantly is very important 
                 in any field, but even more when working with other developers.
                 <br/>
                 <br/>
                 I seek a career in which I can apply the skills I've learned in my study of 
-                full-stack web development, and to become an asset to the company in which 
+                full-stack web development and to become an asset to the company in which 
                 I will collaborate with and continue to grow. 
             </p>    
         </div>

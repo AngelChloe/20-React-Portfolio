@@ -62,13 +62,13 @@ const projectCard = [
 ];
 
 function Portfolio() {
-    return (
-      <div>
-        {projectCard.map((project ) => (
-          <Project project = { project } />
-        ))}
-      </div>
-    )
-  };
+  return (
+    <div>
+      {projectCard.map((project ) => (
+        <Project project = { project } />
+      ))}
+    </div>
+  )
+};
   
   export default Portfolio;
