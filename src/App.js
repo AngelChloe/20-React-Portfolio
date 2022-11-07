@@ -19,7 +19,8 @@ class App extends Component {
         <Welcome/>
         <Navbar className="nav-container">
           <div className="container">
-            <NavbarBrand className="Name" href="/about">Hewan Redie</NavbarBrand>
+          {/* eslint-disable-next-line  */}
+            {/* <NavbarBrand className="Name" href="/about">Cindy Chynoweth</NavbarBrand> */}
             <HeaderNav/>
           </div>
         </Navbar>

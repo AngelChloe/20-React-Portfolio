@@ -17,7 +17,7 @@ function Footer() {
           <li class="list-inline-item">
             <a
               class="btn-floating btn-li mx-1"
-              href="https://www.linkedin.com/in/vanessa-maldonado-90668110a/"
+              href="https://www.linkedin.com/in/cindy-chynoweth-6b516243/"
             >
               <i class="fab fa-linkedin-in" style={{color: 'black'}}> </i>
             </a>

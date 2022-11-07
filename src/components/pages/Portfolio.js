@@ -32,19 +32,19 @@ const projectCard = [
     id: 3
   },
   {
-    deployedLink: "https://github.com/Logan2391/Currency-Exchange",
+    deployedLink: "https://logan2391.github.io/Currency-Exchange/",
     imageIcon: "CurrencyExchange.png",
     descriptionImage: "Currency Exchange",
-    projectName: "Currency Exchange Locator",
+    projectName: "Currency Exchange Locator Team Project",
     projectDescription: "Converts selected currency to desired currency in the preferred amount.  Displays locations nearby to exchange currency.",
-    githubLink: "https://github.com/vbarajas4/06-Server-Side-APIs-Weather-Dashboard",
+    githubLink: "https://github.com/Logan2391/Currency-Exchange",
     id: 4
   },
   {
     deployedLink: "https://blooming-shore-85267.herokuapp.com/",
     imageIcon: "TechBlog.png",
     descriptionImage: "Tech Blog",
-    projectName: "Password Generator",
+    projectName: "Tech Blog",
     projectDescription: " Application that allows developers to write about tech in CMS-style blog site.  User wil be able publish articles, blog posts, thoughts and opinions.",
     githubLink: "https://github.com/Cinderbeast/14-Model-View-Controller-MVC-Tech-Blog",
     id: 5
@@ -65,8 +65,7 @@ function Portfolio() {
   return (
     <div>
       {projectCard.map((project ) => (
-        <Project project = { project } />
-      ))}
+        <Project project = { project } /> ))}
     </div>
   )
 };

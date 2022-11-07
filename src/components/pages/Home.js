@@ -34,7 +34,7 @@ function About() {
             <h1 style={h1}>About Me</h1>
         <div className="container-content">
             <div className="profile-picture" style={PictureStyle}>
-                <img src={require("../../assets/headshot.png").default} alt='profile'/>
+                <img src={require("../../assets/Avatar.png").default} alt='profile'/>
             </div>
             <p style={Pstyle}>
                 My name is Cindy, a passionate full-stack developer with a background in various programming languages and frameworks. 

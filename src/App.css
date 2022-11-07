@@ -1,7 +1,8 @@
 * {
     box-sizing: border-box;
     font-family: 'Marcellus SC', serif;
-    color: rgb(173, 173, 173);
+    /* color: rgb(173, 173, 173); */
+    color: black;
   }
   
   .header {
@@ -100,7 +101,8 @@
   }
   
   .card-text{
-    color: rgb(189, 183, 178);
+    color: black;
+    /* color: rgb(189, 183, 178); */
     margin: 15px;
     font-size: 1.25rem;
   }
@@ -154,7 +156,7 @@
     width: 100%;
     margin-top: 20px;
     border-radius: 50px;
-    background-color: #474747;
+    background-color: #474747; 
   }
   
   .Document{
