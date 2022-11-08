@@ -19,7 +19,7 @@ function Project (props) {
     return (
         <div className="col">
             <div className="card h-100" style={containerStyle}>
-                <a href={ deployedLink }><img src={require(`../assets/${imageIcon}`).default} className="card-img-top" alt={ descriptionImage }/></a>
+                <a href={ deployedLink }><img src={descriptionImage} className="card-img-top" alt={ descriptionImage }/></a>
                 <div className="card-body">
                     <h5 className="card-title"> { projectName }</h5>
                     <p className="card-text"> { projectDescription }</p>

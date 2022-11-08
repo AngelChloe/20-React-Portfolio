@@ -1,13 +1,19 @@
-import React from 'react';
-import Project from '../Project';
+  import React from 'react';
+  import Project from '../Project';
+  import WeatherDashBoard from '../../assets/WeatherDashBoard.png';
+  import TeamProfileGenerator from '../../assets/TeamProfileGenerator.png';
+  import WorkdayScheduler from '../../assets/WorkdayScheduler.png';
+  import CurrencyExchange from '../../assets/CurrencyExchange.png';
+  import TechBlog from '../../assets/TechBlog.png';
+  import GetRoutesProductTest from '../../assets/GetRoutesProductTest.png';
 
 
 const projectCard = [
 
   {
-    deployedLink: "https://cinderbeast.github.io/server-side-APIs-Weather-Dashboard/",
+    // deployedLink: "https://cinderbeast.github.io/server-side-APIs-Weather-Dashboard/",
     imageIcon: "WeatherDashBoard.png",
-    descriptionImage: "Weather Dashboard",
+    descriptionImage: WeatherDashBoard,
     projectName: "Weather Dashboard",
     projectDescription: "An application that lets the user see the current weather and forecast for the next 5 days.",
     githubLink: "https://github.com/Cinderbeast/server-side-APIs-Weather-Dashboard",
@@ -16,16 +22,16 @@ const projectCard = [
   {
     deployedLink: "https://drive.google.com/file/d/1a9aIqdw6jlwDVTfykX16EG8nZt6aWsQ3/view",
     imageIcon: "TeamProfileGenerator.png",
-    descriptionImage: "Profile Cards",
+    descriptionImage: TeamProfileGenerator,
     projectName: "Team Profile",
     projectDescription: "An application that helps you keep track of your employees profile.",
     githubLink: "https://github.com/Cinderbeast/Team-Profile-Generator",
     id: 2
   },
   {
-    deployedLink: "https://vbarajas4.github.io/05-Third-Party-API-WorkDayScheduler/",
+    deployedLink: "https://cinderbeast.github.io/Third-Party-APIs-Workday-Scheduler/",
     imageIcon: "WorkdayScheduler.png",
-    descriptionImage: "Work Schedule",
+    descriptionImage: WorkdayScheduler,
     projectName: "Workday Scheduler",
     projectDescription: "An application that allows the user to see their appointments for the day color coding times by past, present, and future events.",
     githubLink: "https://github.com/Cinderbeast/Third-Party-APIs-Workday-Scheduler",
@@ -34,7 +40,7 @@ const projectCard = [
   {
     deployedLink: "https://logan2391.github.io/Currency-Exchange/",
     imageIcon: "CurrencyExchange.png",
-    descriptionImage: "Currency Exchange",
+    descriptionImage: CurrencyExchange,
     projectName: "Currency Exchange Locator Team Project",
     projectDescription: "Converts selected currency to desired currency in the preferred amount.  Displays locations nearby to exchange currency.",
     githubLink: "https://github.com/Logan2391/Currency-Exchange",
@@ -43,7 +49,7 @@ const projectCard = [
   {
     deployedLink: "https://blooming-shore-85267.herokuapp.com/",
     imageIcon: "TechBlog.png",
-    descriptionImage: "Tech Blog",
+    descriptionImage: TechBlog,
     projectName: "Tech Blog",
     projectDescription: " Application that allows developers to write about tech in CMS-style blog site.  User wil be able publish articles, blog posts, thoughts and opinions.",
     githubLink: "https://github.com/Cinderbeast/14-Model-View-Controller-MVC-Tech-Blog",
@@ -52,7 +58,7 @@ const projectCard = [
   {
     deployedLink: "https://drive.google.com/file/d/18WWQQKblRJP7qggZcz-lnyMHr0n5vKH6/view",
     imageIcon: "GetRoutesProductTest.png",
-    descriptionImage: "Route Product Test",
+    descriptionImage: GetRoutesProductTest,
     projectName: "E-commerce",
     projectDescription: "A back-end e-commerce site that uses the latest technologies to compete with other e-commerce companies.",
     githubLink: "https://github.com/Cinderbeast/13-Object-Relational-Mapping-ORM-E-Commerce-Back-End",
