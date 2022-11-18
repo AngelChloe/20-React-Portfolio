@@ -23,7 +23,7 @@ const projectCard = [
     id: 2
   },
   {
-    deployedLink: "https://vbarajas4.github.io/05-Third-Party-API-WorkDayScheduler/",
+    deployedLink: "https://cinderbeast.github.io/Third-Party-APIs-Workday-Scheduler/",
     imageIcon: "WorkdayScheduler.png",
     descriptionImage: "Work Schedule",
     projectName: "Workday Scheduler",
