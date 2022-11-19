@@ -1,6 +1,5 @@
 import React from 'react';
-import Avatar from '../../assets/Avatar.png';
-
+// import Avatar from '../../Avatar.png'
 
 function About() {
 
@@ -11,15 +10,15 @@ function About() {
         justifyContent: 'space-around',
         backgroundColor: '#d8e1ff'
     }
-    const PictureStyle = {
-        height: '250px', 
-        width: '250px',  
-        borderRadius: '5px',
-        padding: '20px',
-        display: 'flex',
-        marginLeft: 'auto',
-        marginRight: 'auto',
-    }
+    // const PictureStyle = {
+    //     height: '250px', 
+    //     width: '250px',  
+    //     borderRadius: '5px',
+    //     padding: '20px',
+    //     display: 'flex',
+    //     marginLeft: 'auto',
+    //     marginRight: 'auto',
+    // }
     const Pstyle = {
          display: 'flex', 
          textAlign: 'center', 
@@ -35,8 +34,8 @@ function About() {
         <section style={AboutPage}>
             <h1 style={h1}>About Me</h1>
         <div className="container-content">
-            <div className="profile-picture" style={PictureStyle}>
-                <img src={require("../../assets/Avatar.png").default} alt='profile'/>
+            <div id="Avatar">
+                
             </div>
             <p style={Pstyle}>
                 My name is Cindy, a passionate full-stack developer with a background in various programming languages and frameworks. 

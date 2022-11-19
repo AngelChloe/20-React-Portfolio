@@ -11,7 +11,7 @@
 const projectCard = [
 
   {
-    // deployedLink: "https://cinderbeast.github.io/server-side-APIs-Weather-Dashboard/",
+    deployedLink: "https://cinderbeast.github.io/server-side-APIs-Weather-Dashboard/",
     imageIcon: "WeatherDashBoard.png",
     descriptionImage: WeatherDashBoard,
     projectName: "Weather Dashboard",
