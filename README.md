@@ -37,26 +37,29 @@ THEN I see a link to a downloadable resume and a list of the developer’s profi
 WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 
-## Links to the deployed application
-
-* URL of the deployed application: 
-
-* URL of the GitHub repository: https://github.com/Cinderbeast/20-React-Portfolio
 
 ## Screenshots
 
-** Home Page
-
+Home Page
 ![HomePage](https://user-images.githubusercontent.com/105569378/204714135-5eefcba8-588f-4736-81e4-c14b422f6c45.png)
 
-** Portfolio Page
+Portfolio Page
 ![PortfolioPage](https://user-images.githubusercontent.com/105569378/204714143-73b67af2-7cc1-4017-94c5-2190cf685235.png)
 
 Resume page
 ![ResumePage](https://user-images.githubusercontent.com/105569378/204714161-93cf8ad8-282f-4c6f-a68e-c3589ccbf3d7.png)
 
-** Contact Page
+Contact Page
 ![ContactPage](https://user-images.githubusercontent.com/105569378/204714179-f81396e6-940d-437e-8498-6d8553cb3dff.png)
+
+## Links to the deployed application
+
+* Deployed application
+[Deployed application]
+
+* GitHub Pages Repository
+[Githublink](https://github.com/Cinderbeast/20-React-Portfolio/tree/gh-pages)
+
 
 ## Usage
 
@@ -66,7 +69,6 @@ In the project directory, you can run:
 - Runs in [http://localhost:3000](http://localhost:3000) to view it in the browser.
 - Te page will reload if you make edits.
 - `npm run build`
-
 
 
 ## Learn More
