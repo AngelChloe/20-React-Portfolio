@@ -1,7 +1,7 @@
 
 ## 20-react-portfolio
 
-* This is a my portfolio webpage
+## This is a my portfolio webpage
 
 
 ## User Story
@@ -54,21 +54,19 @@ Contact Page
 
 ## Links to the deployed application
 
-* Deployed application
-[Deployed application]
+* Deployed application Link (ttps://cinderbeast.github.io/20-React-Portfolio/)
 
-* GitHub Pages Repository
-[Githublink](https://github.com/Cinderbeast/20-React-Portfolio/tree/gh-pages)
+* GitHub Pages Repository Link (https://github.com/Cinderbeast/20-React-Portfolio/tree/gh-pages)
 
 
 ## Usage
 
 In the project directory, you can run:
 
+- `npm run build`
 - npm start
 - Runs in [http://localhost:3000](http://localhost:3000) to view it in the browser.
 - Te page will reload if you make edits.
-- `npm run build`
 
 
 ## Learn More
