@@ -54,9 +54,11 @@ Contact Page
 
 ## Links to the deployed application
 
-* Deployed application Link (ttps://cinderbeast.github.io/20-React-Portfolio/)
+* Deployed application Link 
+[Deployed Link](https://cinderbeast.github.io/20-React-Portfolio/)
 
-* GitHub Pages Repository Link (https://github.com/Cinderbeast/20-React-Portfolio/tree/gh-pages)
+* GitHub Pages Repository Link 
+[Github Link](https://github.com/Cinderbeast/20-React-Portfolio/tree/gh-pages)
 
 
 ## Usage
