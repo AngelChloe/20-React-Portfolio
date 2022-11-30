@@ -1,5 +1,5 @@
 import React from 'react';
-// import Avatar from '../../Avatar.png'
+import Avatar from '../../assets/Avatar.png'
 
 function About() {
 
@@ -34,9 +34,7 @@ function About() {
         <section style={AboutPage}>
             <h1 style={h1}>About Me</h1>
         <div className="container-content">
-            <div id="Avatar">
-                
-            </div>
+                <img src={Avatar} id="Avatar"></img>
             <p style={Pstyle}>
                 My name is Cindy, a passionate full-stack developer with a background in various programming languages and frameworks. 
                 Specialized in JavaScript, jQuery, React, CSS, HTML5, Node.js, Express.js, SQL, NoSQL(MongoDB) and React.

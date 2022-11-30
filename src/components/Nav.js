@@ -5,7 +5,7 @@ export default function Nav() {
   
   
     return (
-
+      
       <nav className="navbar navbar-light bg-primary">
         <div className="container-fluid">
           <span className="navbar-brand mb-0 h1 fs-2 fw-bold p-2">Cindy Chynoweth</span>
@@ -25,6 +25,9 @@ export default function Nav() {
               </li>
 
             </ul>
+            <div class="mx-auto">
+			        <a class="navbar-brand " href="#"></a>
+            </div>
         </div>
       </nav>
     );

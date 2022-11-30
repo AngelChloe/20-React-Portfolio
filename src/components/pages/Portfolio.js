@@ -9,11 +9,10 @@
 
 
 const projectCard = [
-
-  {
+   {
     deployedLink: "https://cinderbeast.github.io/server-side-APIs-Weather-Dashboard/",
     imageIcon: "WeatherDashBoard.png",
-    descriptionImage: WeatherDashBoard,
+    descriptionImage: "WeatherDashBoard",
     projectName: "Weather Dashboard",
     projectDescription: "An application that lets the user see the current weather and forecast for the next 5 days.",
     githubLink: "https://github.com/Cinderbeast/server-side-APIs-Weather-Dashboard",
