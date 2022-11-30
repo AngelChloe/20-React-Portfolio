@@ -55,7 +55,7 @@ Contact Page
 ## Links to the deployed application
 
 * Deployed application 
-[Link](https://cinderbeast.github.io/20-React-Portfolio/)
+[Link](http://localhost:3000/20-react-portfolio#/)
 
 * GitHub Pages Repository
 [Link](https://github.com/Cinderbeast/20-React-Portfolio/tree/gh-pages)
