@@ -14,7 +14,11 @@
   }
   
   .nav-container{
-    background-color:#ebebeb;
+    width:750px;
+    margin:0 auto;
+    list-style:none;
+    /* background-color:#ebebeb; */
+    background-image: url("https://sfwallpaper.com/images/header-image-1.jpg");
   }
   
   .Name{

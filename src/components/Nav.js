@@ -9,8 +9,8 @@ export default function Nav() {
       <nav className="navbar navbar-light bg-primary">
         <div className="container-fluid">
           <span className="navbar-brand mb-0 h1 fs-2 fw-bold p-2">Cindy Chynoweth</span>
-  
-            <ul className="nav justify-content-end" >
+        
+            <ul className="nav justify-content-center">
               <li className="nav-item" >
                 <Link className="nav-link active text-dark h5" aria-current="page" to="/">About</Link>
               </li>
