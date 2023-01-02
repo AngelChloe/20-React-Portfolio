@@ -54,7 +54,9 @@ Contact Page
 ## Links to the deployed application
 
 * Deployed application 
-[Link](http://localhost:3000/20-react-portfolio#/)
+[Link](http://localhost:3000/20-react-portfolio#/) 
+
+https://angelchloe.github.io/20-React-Portfolio/
 
 * GitHub Repository Link
 [Link]()https://github.com/AngelChloe/20-React-Portfolio
